@@ -1,0 +1,102 @@
+@import "normalize.scss";
+$darkGrey: #878787;
+$mdGrey: #DDD;
+$lghtGrey: #ccc;
+$pricingText: center; 
+$priceMargin: 0 0.2em;
+$border:.1em solid $mdGrey;
+
+
+
+header{
+	background-color: #fff;
+	padding: .5em 1em;
+	
+	.logo{
+		float:left;
+		color:$darkGrey;
+	}
+	.nav{
+		float:right;
+	}
+	span {
+		padding-right: 1.5em;
+	}
+	.greyNav {
+		color:$darkGrey;
+	}
+}
+main{
+	.heroImg{
+		background-image: url("../background.jpg");
+		background-repeat: no-repeat;
+		height:14em;
+		margin-bottom: 3em;
+		
+	}
+	h1 {
+		text-align: center;
+		color: white;
+		padding-top:2em;
+		font-weight: normal;
+	}
+}
+
+section {
+	.priceHero{
+		margin: $priceMargin;
+		text-align: $pricingText;
+		padding: 2em 4em;
+		color: white;
+
+	}
+	.priceTitle{
+		letter-spacing: .4em;
+	}
+	.priceAmt{
+		font-size: 6em;
+		font-weight: lighter;
+	}
+	.perMnth{
+		color:$lghtGrey;
+		font-size:1.3em;
+
+	}
+	.priceDetails{
+		margin:  $priceMargin;
+		text-align: $pricingText;
+		background-color: #F7F7F7;
+			div{
+				padding: .6em;
+				border-bottom: $border;
+				border-right: $border;
+				border-left: $border;
+				color: #57686E;
+
+			}	
+
+	}
+	.chooseBtn{
+		margin:  0 0.2em 2em 0.2em;
+		background-color:white;
+		text-align:center;
+		font-weight:bold;
+		border-bottom: $border;
+		border-right: $border;
+		border-left: $border;
+		padding: 2em 4em;
+			span{
+				border: .1em solid $darkGrey;
+				padding: 0.6em 1em;
+				border-radius: 2em;
+			}
+
+	}
+	.personal {
+		background-color:#289952;
+	}
+	.smallBus{
+		background-color: #2C4387;
+	}
+
+}
