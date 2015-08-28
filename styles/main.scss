@@ -139,3 +139,18 @@ footer{
 		}
 
 }
+
+@media screen and (min-width: 479px){
+	header{
+		padding: 1.5em 1em;
+	}
+	main{
+		.heroImg{
+			height:15em;
+			padding-top:9em;
+		}
+		h1 {
+			padding-top:0;
+		}
+	}
+}
