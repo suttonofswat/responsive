@@ -1,10 +1,8 @@
 @import "normalize.scss";
-$darkGrey: #878787;
-$mdGrey: #DDD;
-$lghtGrey: #ccc;
+$navTextColor: #878787;
 $pricingText: center; 
 $priceMargin: 0 0.5em;
-$border:.1em solid $mdGrey;
+$border:.1em solid #DDD;
 
 
 
@@ -14,7 +12,7 @@ header{
 	
 	.logo{
 		float:left;
-		color:$darkGrey;
+		color:$navTextColor;
 	}
 	.nav{
 		float:right;
@@ -23,7 +21,7 @@ header{
 		padding-right: 1.5em;
 	}
 	.greyNav {
-		color:$darkGrey;
+		color:$navTextColor;
 	}
 }
 main{
@@ -60,7 +58,7 @@ main{
 		font-weight: lighter;
 	}
 	.perMnth{
-		color:$lghtGrey;
+		color:#ccc;
 		font-size:1.3em;
 
 	}
@@ -134,7 +132,7 @@ main{
 footer{
 	background-color:#000;
 	text-align:center;
-	color: $darkGrey;
+	color: $navTextColor;
 	padding:2em;
 	line-height:1.5em;
 		span{
@@ -201,10 +199,14 @@ footer{
 			background-size:cover;
 		}
 	}
+	.pricing .priceTitle{
+		letter-spacing: .04em;
+	}
 	.threeBlock{
 		margin: 0 15%;
 	}
 	.information{
 		margin: 0 15%;
 	}
+	
 }

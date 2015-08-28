@@ -488,6 +488,9 @@ footer {
   main .heroImg {
     background-size: cover; }
 
+  .pricing .priceTitle {
+    letter-spacing: .04em; }
+
   .threeBlock {
     margin: 0 15%; }
 
