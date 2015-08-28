@@ -10,7 +10,7 @@ $border:.1em solid $mdGrey;
 
 header{
 	background-color: #fff;
-	padding: .5em 1em;
+	padding: .5em 1em .75em;
 	
 	.logo{
 		float:left;
@@ -47,12 +47,13 @@ main{
 	.priceHero{
 		margin: $priceMargin;
 		text-align: $pricingText;
-		padding: 2em 4em;
 		color: white;
+		padding: 2em;
+		text-align:center;
 
 	}
 	.priceTitle{
-		letter-spacing: .4em;
+		letter-spacing: .1em;
 	}
 	.priceAmt{
 		font-size: 6em;
@@ -78,7 +79,7 @@ main{
 
 	}
 	.chooseBtn{
-		margin:  0 0.2em 2em 0.2em;
+		margin:  0 0.5em;
 		background-color:white;
 		text-align:center;
 		font-weight:bold;
@@ -87,7 +88,7 @@ main{
 		border-left: $border;
 		padding: 2em 4em;
 			span{
-				border: .1em solid $darkGrey;
+				border: $border;
 				padding: 0.6em 1em;
 				border-radius: 2em;
 					&:hover{background: rgba(147,206,222,1);}
@@ -97,12 +98,15 @@ main{
 	}
 	.personal {
 		background-color:#289952;
+
 	}
 	.smallBus{
 		background-color: #2C4387;
+		margin-top:1em;
 	}
 	.enterprise{
 		background-color: #000;
+		margin-top:1em;
 	}
 	.enterpriseBTN{
 		margin-bottom: 3.5em;
@@ -140,9 +144,10 @@ footer{
 
 }
 
+//sm breakpoint
 @media screen and (min-width: 479px){
 	header{
-		padding: 1.5em 1em;
+		padding: 1em 1em 1.5em;
 	}
 	main{
 		.heroImg{
@@ -153,4 +158,36 @@ footer{
 			padding-top:0;
 		}
 	}
+}
+
+//md breakpoint
+@media screen and (min-width: 767px){
+	
+	.pricing{
+		width:33.3%;
+		display:inline-block;
+		box-sizing:border-box;
+		margin-right: -.5em;
+		border: .5em solid white;
+
+		.priceHero{
+				margin:0;
+		}
+		.priceDetails{
+				margin:0;
+		}
+		
+
+	}
+	.information {
+		padding:0;
+		.bottomInfo{
+			display: inline-block;
+			width:49%;
+			padding:.5em 1em;
+			box-sizing:border-box;
+			vertical-align: top;
+		}
+	}
+
 }

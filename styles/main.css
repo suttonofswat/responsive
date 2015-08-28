@@ -358,7 +358,7 @@ th {
 
 header {
   background-color: #fff;
-  padding: .5em 1em; }
+  padding: .5em 1em .75em; }
   header .logo {
     float: left;
     color: #878787; }
@@ -384,10 +384,11 @@ main h1 {
 .pricing .priceHero {
   margin: 0 0.5em;
   text-align: center;
-  padding: 2em 4em;
-  color: white; }
+  color: white;
+  padding: 2em;
+  text-align: center; }
 .pricing .priceTitle {
-  letter-spacing: .4em; }
+  letter-spacing: .1em; }
 .pricing .priceAmt {
   font-size: 6em;
   font-weight: lighter; }
@@ -405,7 +406,7 @@ main h1 {
     border-left: 0.1em solid #DDD;
     color: #57686E; }
 .pricing .chooseBtn {
-  margin: 0 0.2em 2em 0.2em;
+  margin: 0 0.5em;
   background-color: white;
   text-align: center;
   font-weight: bold;
@@ -414,7 +415,7 @@ main h1 {
   border-left: 0.1em solid #DDD;
   padding: 2em 4em; }
   .pricing .chooseBtn span {
-    border: 0.1em solid #878787;
+    border: 0.1em solid #DDD;
     padding: 0.6em 1em;
     border-radius: 2em; }
     .pricing .chooseBtn span:hover {
@@ -422,9 +423,11 @@ main h1 {
 .pricing .personal {
   background-color: #289952; }
 .pricing .smallBus {
-  background-color: #2C4387; }
+  background-color: #2C4387;
+  margin-top: 1em; }
 .pricing .enterprise {
-  background-color: #000; }
+  background-color: #000;
+  margin-top: 1em; }
 .pricing .enterpriseBTN {
   margin-bottom: 3.5em; }
 
@@ -452,12 +455,32 @@ footer {
 
 @media screen and (min-width: 479px) {
   header {
-    padding: 1.5em 1em; }
+    padding: 1em 1em 1.5em; }
 
   main .heroImg {
     height: 15em;
     padding-top: 9em; }
   main h1 {
     padding-top: 0; } }
+@media screen and (min-width: 767px) {
+  .pricing {
+    width: 33.3%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: -.5em;
+    border: .5em solid white; }
+    .pricing .priceHero {
+      margin: 0; }
+    .pricing .priceDetails {
+      margin: 0; }
+
+  .information {
+    padding: 0; }
+    .information .bottomInfo {
+      display: inline-block;
+      width: 49%;
+      padding: .5em 1em;
+      box-sizing: border-box;
+      vertical-align: top; } }
 
 /*# sourceMappingURL=main.css.map */
