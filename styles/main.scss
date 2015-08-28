@@ -5,7 +5,6 @@ $priceMargin: 0 0.5em;
 $border:.1em solid #DDD;
 
 
-
 header{
 	background-color: #fff;
 	padding: .5em 1em .75em;
@@ -203,10 +202,12 @@ footer{
 		letter-spacing: .04em;
 	}
 	.threeBlock{
-		margin: 0 15%;
+		width:60em;
+		margin: 0 auto;
 	}
 	.information{
-		margin: 0 15%;
+		width: 60em;
+		margin: 0 auto;
 	}
 	
 }

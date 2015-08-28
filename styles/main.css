@@ -492,9 +492,11 @@ footer {
     letter-spacing: .04em; }
 
   .threeBlock {
-    margin: 0 15%; }
+    width: 60em;
+    margin: 0 auto; }
 
   .information {
-    margin: 0 15%; } }
+    width: 60em;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
