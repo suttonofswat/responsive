@@ -469,6 +469,8 @@ footer {
     box-sizing: border-box;
     margin-right: -.5em;
     border: .5em solid white; }
+    .pricing .chooseBtn {
+      margin: 0; }
     .pricing .priceHero {
       margin: 0; }
     .pricing .priceDetails {
@@ -482,5 +484,14 @@ footer {
       padding: .5em 1em;
       box-sizing: border-box;
       vertical-align: top; } }
+@media screen and (min-width: 979px) {
+  main .heroImg {
+    background-size: cover; }
+
+  .threeBlock {
+    margin: 0 15%; }
+
+  .information {
+    margin: 0 15%; } }
 
 /*# sourceMappingURL=main.css.map */

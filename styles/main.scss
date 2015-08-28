@@ -162,13 +162,14 @@ footer{
 
 //md breakpoint
 @media screen and (min-width: 767px){
-	
+
 	.pricing{
 		width:33.3%;
 		display:inline-block;
 		box-sizing:border-box;
 		margin-right: -.5em;
 		border: .5em solid white;
+		.chooseBtn {margin:0;}
 
 		.priceHero{
 				margin:0;
@@ -176,6 +177,7 @@ footer{
 		.priceDetails{
 				margin:0;
 		}
+
 		
 
 	}
@@ -190,4 +192,19 @@ footer{
 		}
 	}
 
+}
+
+//lg breakpoint
+@media screen and (min-width: 979px){
+	main{
+		.heroImg{
+			background-size:cover;
+		}
+	}
+	.threeBlock{
+		margin: 0 15%;
+	}
+	.information{
+		margin: 0 15%;
+	}
 }
